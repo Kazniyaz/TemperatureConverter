@@ -40,4 +40,11 @@ describe('temperature converter using converter class', () => {
   it('properly converts C to F', () => {
     expect(newConverter.convertToCFromF()).to.be.equal(0);
   });
+
+  /* Additional tests to perform:
+  Check if newConverter is an object with proper fields
+  Check if new fields got set right
+  Check if methods called are on the prototype
+  Check corner cases of the rounding logic etc and more and more tedious tests lol
+  */
 });
